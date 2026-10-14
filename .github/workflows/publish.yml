@@ -27,7 +27,7 @@ jobs:
       # By default, GH pages support jekyll
       # and ignore underscore paths such as `_next`
       - run: touch out/.nojekyll
-      # - run: echo 'madere.kosma.didonc.com' > out/CNAME
+      - run: echo 'madere.kosma.didonc.com' > out/CNAME
       - name: Publish
         uses: JamesIves/github-pages-deploy-action@v4
         with:
